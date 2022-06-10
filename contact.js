@@ -1,3 +1,5 @@
+// Intersection Observer
+
 const options = {
   //   root: null,
   threshhold: 0.25,
