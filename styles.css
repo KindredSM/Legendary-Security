@@ -115,7 +115,7 @@ body {
 /* HERO */
 
 .hero {
-  background-image: url(Images/SECURITY.png);
+  background-image: url(images/SECURITY.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
