@@ -200,6 +200,7 @@ body {
 }
 
 .testimonial__text {
+  font-size: 1.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -250,7 +251,7 @@ body {
 }
 
 .help__header {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .help__header,
 .help__text {
@@ -258,6 +259,7 @@ body {
 }
 
 .help__text {
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
