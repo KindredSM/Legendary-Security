@@ -263,6 +263,28 @@ body {
   font-weight: 500;
 }
 
+.services__glance {
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #006cd1;
+  text-align: center;
+}
+
+.services__glance__header {
+  padding-bottom: 30px;
+  font-size: 2rem;
+}
+
+.services__glance__text {
+  line-height: 200%;
+  gap: 20px;
+  font-size: 1.4rem;
+}
 #footer {
   margin-top: 150px;
   width: 100%;
@@ -415,6 +437,14 @@ body {
 
 @media screen and (max-width: 800px) {
   .help {
-    max-width: 70%;
+    max-width: 80%;
+  }
+
+  .help__header {
+    font-size: 1.5rem;
+  }
+
+  .help__text {
+    font-size: 1rem;
   }
 }

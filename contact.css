@@ -291,6 +291,9 @@ body {
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  .service1 {
+    padding-left: 5000px;
+  }
 
   .footer__text {
     width: 90%;
