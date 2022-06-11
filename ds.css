@@ -196,7 +196,7 @@ body {
 
 .stars {
   padding: 25px 0px 15px 0px;
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 .testimonial__text {
@@ -208,7 +208,7 @@ body {
   flex-direction: column;
   margin-right: auto;
   text-align: left;
-  max-width: 60%;
+  max-width: 80%;
   color: white;
 }
 
@@ -216,7 +216,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  max-width: 60%;
+  max-width: 80%;
   color: white;
   color: #0084ff;
 }
@@ -225,7 +225,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  max-width: 60%;
+  max-width: 80%;
   color: white;
   color: #ffffff;
 }
