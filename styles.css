@@ -442,17 +442,23 @@ body {
 
   .services__wrapper {
     grid-template-rows: repeat(1, 4fr);
-    gap: 0;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .service1,
   .service2,
   .service3,
   .service4 {
-    max-width: 80%;
-    max-height: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
   }
 
   .service1 {
