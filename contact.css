@@ -26,7 +26,7 @@ body {
   position: fixed;
   transition: 0.2s ease-in-out;
   background-color: white;
-  box-shadow: 5px -1px 12px -5px grey;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.4);
 }
 
 .navbar__container {

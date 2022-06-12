@@ -13,105 +13,6 @@ body {
 
 /* NAV */
 
-.navbar {
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 99;
-  width: 100%;
-  position: fixed;
-  transition: 0.2s ease-in-out;
-  background-color: white;
-  box-shadow: 5px -1px 12px -5px grey;
-}
-
-.navbar__container {
-  display: flex;
-  justify-content: space-between;
-  height: 60px;
-  z-index: 1;
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 0 50px;
-}
-
-#navbar__logo {
-  color: #006cd1;
-  background-size: 100%;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 900;
-  padding-left: 20px;
-  z-index: 99;
-}
-
-.navbar__menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-.navbar__item {
-  height: 80px;
-}
-
-.navbar__links {
-  color: #006cd1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 125px;
-  text-decoration: none;
-  font-weight: 700;
-  height: 100%;
-  transition: all 0.3s ease;
-  font-family: "PT Sans", sans-serif;
-}
-
-.navbar__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-  width: 100%;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  font-weight: 700;
-  padding: 10px 20px;
-  height: 100%;
-  width: 100%;
-  background-color: #006cd1;
-  outline: none;
-  border-radius: 30px;
-  color: rgb(255, 255, 255);
-  transition: all 0.3s ease;
-}
-
-.navbar__links:hover {
-  color: #000000;
-  transition: all 0.3s ease;
-}
-
-.button:hover,
-.services__button:hover {
-  transform: scale(1.1);
-  color: black;
-  transition: all 0.3s ease;
-}
-
 /* CONTACT */
 
 .retail__section {
@@ -247,7 +148,7 @@ body {
   max-width: 40%;
   font-weight: 700;
   color: #ffffff;
-  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.4);
 }
 
 .help__header {
@@ -284,35 +185,6 @@ body {
   line-height: 200%;
   gap: 20px;
   font-size: 1.4rem;
-}
-#footer {
-  margin-top: 150px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 20px 0px 20px 0px;
-  background: linear-gradient(180deg, #002a51 0%, #00182e 90.84%);
-}
-.footer__address {
-  font-weight: 300;
-  padding-left: 20%;
-  max-width: 40%;
-  color: white;
-  list-style: none;
-  text-align: left;
-}
-
-.footer__text {
-  padding-left: 30px;
-  width: 50%;
-  color: white;
-  text-align: justify;
-}
-
-#privacy__policy,
-#terms__conditions {
-  color: #006cd1;
 }
 
 /* ANIMATIONS */
