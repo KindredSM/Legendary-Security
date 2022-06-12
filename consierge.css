@@ -114,11 +114,12 @@ body {
 
 /* CONTACT */
 
-.contact__section {
+.retail__section {
+  overflow: hidden;
   text-align: center;
   margin: 0 auto;
-  max-width: 90%;
-  gap: 50px;
+  max-width: 100%;
+  gap: 20px;
   padding-top: 100px;
   display: flex;
   justify-content: center;
@@ -126,28 +127,164 @@ body {
   flex-direction: column;
 }
 
-.contact__header {
+.retail__header {
   font-weight: 900;
-  color: #006cd1;
-  font-size: 2.5rem;
-}
-
-.email,
-.phone {
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #006cd1;
-}
-
-.email__address,
-.phone__number,
-.contact__description {
-  text-decoration: none;
   color: black;
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 3rem;
 }
 
+.retail__description {
+  max-width: 80%;
+  text-decoration: none;
+  color: #006cd1;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.retail__text {
+  font-size: 1.2rem;
+  max-width: 80%;
+  text-align: justify;
+}
+
+.ds__stripes {
+  padding: 40px 0px 40px 0px;
+}
+.list__section {
+  list-style-image: url(images/LIST.svg);
+  list-style-position: outside;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.ds__list span {
+  list-style-position: outside;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  text-align: justify;
+}
+
+.call {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+  text-align: left;
+}
+
+.statement {
+  padding: 50px 0px 50px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  max-width: 60%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #006cd1;
+}
+
+.testimonial {
+  padding-bottom: 50px;
+  background-color: #002a51;
+}
+
+.stars {
+  padding: 25px 0px 15px 0px;
+  padding-left: 10%;
+}
+
+.testimonial__text {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  flex-direction: column;
+  margin-right: auto;
+  text-align: left;
+  max-width: 80%;
+  color: white;
+}
+
+.bar__broadway {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  max-width: 80%;
+  color: white;
+  color: #0084ff;
+}
+
+.simon__ebers {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  max-width: 80%;
+  color: white;
+  color: #ffffff;
+}
+
+.help {
+  border-radius: 3px;
+  gap: 20px;
+  margin-top: 50px;
+  padding: 20px 20px 20px 20px;
+  background-color: #006cd1;
+  padding: 50px 0px 50px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  max-width: 40%;
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.help__header {
+  font-size: 2rem;
+}
+.help__header,
+.help__text {
+  max-width: 80%;
+}
+
+.help__text {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.services__glance {
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #006cd1;
+  text-align: center;
+}
+
+.services__glance__header {
+  padding-bottom: 30px;
+  font-size: 2rem;
+}
+
+.services__glance__text {
+  line-height: 200%;
+  gap: 20px;
+  font-size: 1.4rem;
+}
 #footer {
   margin-top: 150px;
   width: 100%;
@@ -157,7 +294,6 @@ body {
   padding: 20px 0px 20px 0px;
   background: linear-gradient(180deg, #002a51 0%, #00182e 90.84%);
 }
-
 .footer__address {
   font-weight: 300;
   padding-left: 20%;
@@ -166,6 +302,7 @@ body {
   list-style: none;
   text-align: left;
 }
+
 .footer__text {
   padding-left: 30px;
   width: 50%;
@@ -299,23 +436,23 @@ body {
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  .service1 {
-    padding-left: 5000px;
-  }
-  #footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
   .footer__text {
     width: 90%;
     margin-bottom: 100px;
   }
-  .footer__address {
-    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .help {
     max-width: 80%;
-    width: 90%;
+  }
+
+  .help__header {
+    font-size: 1.5rem;
+  }
+
+  .help__text {
+    font-size: 1rem;
   }
 }

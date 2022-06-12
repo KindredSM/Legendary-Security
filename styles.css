@@ -134,11 +134,12 @@ body {
 }
 .hero__header {
   font-size: 3.5rem;
+  font-weight: 900;
 }
 
 .hero__description {
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 500;
   color: rgb(234, 233, 233);
 }
 .hero__header,
@@ -301,7 +302,17 @@ body {
   padding-left: 30px;
   width: 50%;
   color: white;
+  list-style: none;
   text-align: justify;
+}
+
+.footer__address {
+  font-weight: 300;
+  padding-left: 20%;
+  max-width: 40%;
+  color: white;
+  list-style: none;
+  text-align: left;
 }
 
 #privacy__policy,
@@ -481,8 +492,19 @@ body {
     grid-row: 4;
   }
 
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .footer__text {
     width: 90%;
     margin-bottom: 100px;
+  }
+  .footer__address {
+    padding: 0;
+    max-width: 80%;
+    width: 90%;
   }
 }

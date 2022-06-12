@@ -112,42 +112,6 @@ body {
   transition: all 0.3s ease;
 }
 
-/* CONTACT */
-
-.contact__section {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 90%;
-  gap: 50px;
-  padding-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.contact__header {
-  font-weight: 900;
-  color: #006cd1;
-  font-size: 2.5rem;
-}
-
-.email,
-.phone {
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #006cd1;
-}
-
-.email__address,
-.phone__number,
-.contact__description {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
 #footer {
   margin-top: 150px;
   width: 100%;
@@ -157,7 +121,6 @@ body {
   padding: 20px 0px 20px 0px;
   background: linear-gradient(180deg, #002a51 0%, #00182e 90.84%);
 }
-
 .footer__address {
   font-weight: 300;
   padding-left: 20%;
@@ -166,6 +129,7 @@ body {
   list-style: none;
   text-align: left;
 }
+
 .footer__text {
   padding-left: 30px;
   width: 50%;
@@ -176,25 +140,6 @@ body {
 #privacy__policy,
 #terms__conditions {
   color: #006cd1;
-}
-
-/* ANIMATIONS */
-
-.fade {
-  animation: fadeIn 1s;
-  overflow: hidden;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(+20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 @media screen and (max-width: 960px) {
@@ -262,7 +207,7 @@ body {
   }
 
   .button {
-    font-weight: 300;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,16 +244,13 @@ body {
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  .service1 {
-    padding-left: 5000px;
-  }
+
   #footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .footer__text {
     width: 90%;
     margin-bottom: 100px;
