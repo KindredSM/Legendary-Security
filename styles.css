@@ -204,32 +204,23 @@
   }
 
   .services__wrapper {
-    grid-template-rows: repeat(1, 4fr);
-
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
+}
 
-  .service1 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .service2 {
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  .service3 {
-    grid-column: 1;
-    grid-row: 3;
-  }
-
+@media screen and (max-width: 560px) {
+  .service1,
+  .service2,
+  .service3,
   .service4 {
-    grid-column: 1;
-    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transform: scale(0.9);
   }
 }
