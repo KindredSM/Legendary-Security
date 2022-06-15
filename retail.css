@@ -148,7 +148,7 @@ body {
   max-width: 40%;
   font-weight: 700;
   color: #ffffff;
-  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
 }
 
 .help__header {
