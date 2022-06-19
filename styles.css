@@ -2,6 +2,7 @@
 
 .hero {
   background: linear-gradient(180deg, #003669 0%, #00182e 90.84%);
+  background-image: url(/images/DS.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
