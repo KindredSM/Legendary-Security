@@ -1,6 +1,6 @@
 const options = {
   //   root: null,
-  threshhold: 0.25,
+  // threshhold: 0.25,
 };
 
 const observer = new IntersectionObserver(function (entries, observer) {
