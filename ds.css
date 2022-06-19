@@ -145,6 +145,8 @@
 }
 
 .help__text {
+  color: white;
+  list-style: none;
   font-size: 1.2rem;
   font-weight: 500;
 }
