@@ -194,6 +194,23 @@
   }
 }
 
+.john {
+  animation: john 1s;
+  overflow: hidden;
+}
+
+@keyframes john {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @media screen and (max-width: 960px) {
   .hero__container {
     padding-top: 200px;
