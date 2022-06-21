@@ -1,25 +1,14 @@
 /* HERO */
 
 .hero {
-  /* background: linear-gradient(180deg, #003669 0%, #00182e 90.84%); */
+  background: linear-gradient(180deg, #00509a 0%, #00182e 90.84%);
   /* background-image: url("./images/ds.png"); */
-  /* background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  width: 100%;
-  height: 110vh;
-}
-
-.bg__image {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
   width: 100%;
   height: 110vh;
-  z-index: -1;
 }
 
 .hero__container {
