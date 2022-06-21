@@ -1,6 +1,6 @@
 const options = {
-  rootMargin: "0px",
-  threshhold: 0,
+  // rootMargin: "0px",
+  // threshhold: 0,
 };
 
 const observer = new IntersectionObserver(function (entries, observer) {
@@ -15,8 +15,6 @@ const observer = new IntersectionObserver(function (entries, observer) {
 }, options);
 
 observer.observe(home__container);
-// observer.observe(about__header);
-// observer.observe(about__description);
 observer.observe(services);
 
 const observer2 = new IntersectionObserver(function (entries, observer) {
