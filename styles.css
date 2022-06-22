@@ -1,15 +1,13 @@
 /* HERO */
 
 .hero {
-  background: linear-gradient(180deg, #00509a 0%, #00182e 90.84%);
-  background-image: url("./images/ds.png");
+  /* background: linear-gradient(180deg, #00509a 0%, #00182e 90.84%);
+  background-image: url("./images/ds.png"); */
+  background: url("./images/ds.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   z-index: 99;
   width: 100%;
   height: 110vh;
