@@ -2,7 +2,7 @@
 
 .hero {
   background: linear-gradient(180deg, #00509a 0%, #00182e 90.84%);
-  background-image: url("/images/ds.png");
+  background-image: url("./images/ds.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -198,12 +198,12 @@
   }
 }
 
-.john {
-  animation: john 1s;
+.fade2 {
+  animation: fadeIn2 1s;
   overflow: hidden;
 }
 
-@keyframes john {
+@keyframes fadeIn2 {
   0% {
     opacity: 0;
     transform: translateX(-50px);

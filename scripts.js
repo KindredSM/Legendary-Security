@@ -1,7 +1,4 @@
-const options = {
-  rootMargin: "0px",
-  threshhold: 0,
-};
+const options = {};
 
 const observer = new IntersectionObserver(function (entries, observer) {
   entries.forEach((entry) => {
@@ -23,7 +20,7 @@ const observer2 = new IntersectionObserver(function (entries, observer) {
       return;
     }
     console.log(entry.target);
-    entry.target.classList.toggle("john");
+    entry.target.classList.toggle("fade2");
     observer.unobserve(entry.target);
   });
 }, options);
