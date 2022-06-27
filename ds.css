@@ -28,6 +28,8 @@
 }
 
 .ds__text {
+  text-justify: distribute;
+  text-align-last: left;
   font-size: 1.2rem;
   max-width: 80%;
   text-align: justify;
