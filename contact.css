@@ -30,6 +30,7 @@
 .phone__number,
 .contact__description {
   text-decoration: none;
+  list-style: none;
   color: black;
   font-size: 1.5rem;
   font-weight: 300;
