@@ -234,15 +234,6 @@
   }
 }
 
-@media screen and (max-width: 955px) {
-  .service1,
-  .service2,
-  .service3,
-  .service4 {
-    transform: scale(1.2);
-  }
-}
-
 @media screen and (max-width: 560px) {
   .services__wrapper {
     gap: 0px;
@@ -263,7 +254,7 @@
   .service2:hover,
   .service3:hover,
   .service4:hover {
-    transform: scale(0.95);
+    transform: scale(0.75);
   }
 }
 
