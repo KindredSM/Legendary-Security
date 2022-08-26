@@ -215,9 +215,14 @@
 @media screen and (max-width: 960px) {
   .hero__container {
     padding-top: 200px;
+    max-width: 90%;
   }
   .hero__description {
     font-size: 2rem;
+  }
+
+  .hero__header {
+    font-size: 3rem;
   }
 
   .services__button,
