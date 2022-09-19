@@ -228,7 +228,8 @@
 
   .services__button,
   .about__button {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    width: 11em;
   }
 
   .services__wrapper {
