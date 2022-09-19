@@ -244,6 +244,10 @@
 @media screen and (max-width: 560px) {
   .hero {
     background: linear-gradient(180deg, #005bb0 0%, #00182e 90.84%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .services__wrapper {
