@@ -13,6 +13,14 @@ body {
 
 /* NAV */
 
+.home__img {
+  width: 18rem;
+}
+
+.home__mobile {
+  display: none;
+  width: 2rem;
+}
 .navbar {
   height: 60px;
   display: flex;
@@ -143,6 +151,14 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+  .home__img {
+    display: none;
+  }
+  .home__mobile {
+    display: block;
+    width: 2rem;
+  }
+
   .navbar__container {
     display: flex;
     justify-content: space-between;
