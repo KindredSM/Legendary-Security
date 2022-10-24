@@ -1,6 +1,5 @@
 /* HERO */
 
-
 .hero {
   background: linear-gradient(180deg, #005bb0 0%, #00182e 90.84%);
   background-image: url("./images/ds.png");
@@ -171,7 +170,7 @@
 .service2:hover,
 .service3:hover,
 .service4:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   transition: ease-in-out 0.3s;
   opacity: 0.7;
   cursor: pointer;
@@ -244,11 +243,13 @@
 
 @media screen and (max-width: 560px) {
   .hero {
-    background: linear-gradient(180deg, #005bb0 0%, #00182e 90.84%);
+    /* background: linear-gradient(180deg, #005bb0 0%, #00182e 90.84%); */
     background-attachment: fixed;
-    background-position: center;
+    background-position: 90%;
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 
   .services__wrapper {
@@ -270,7 +271,7 @@
   .service2:hover,
   .service3:hover,
   .service4:hover {
-    transform: scale(0.75);
+    transform: scale(0.7);
   }
 }
 
